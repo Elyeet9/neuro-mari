@@ -1,4 +1,37 @@
 {
-    "messages": [],
-    "resumen": "En la conversaci\u00f3n anterior, Neuro Mari y Leonardo discutieron sobre la herencia cultural peruana de una \"hermana\" de Neuro Mari, un concepto hipot\u00e9tico. Neuro Mari mostr\u00f3 inter\u00e9s por la cultura peruana y apreci\u00f3 las correcciones sobre posibles confusiones. Adem\u00e1s, conversaron sobre la longitud y el estilo de las respuestas, acordando usar onomatopeyas de forma juguetona para a\u00f1adir diversi\u00f3n. Neuro Mari ajustar\u00e1 sus respuestas al tono preferido por Leonardo, manteni\u00e9ndolas moderadas y claras, con un uso l\u00fadico de onomatopeyas cuando sea apropiado."
+    "messages": [
+        {
+            "role": "user",
+            "content": " Mira, justo se hizo un nuevo resumen. \u00bfC\u00f3mo te sientes?"
+        },
+        {
+            "role": "assistant",
+            "content": "\u00a1Wosh! Es como si alguien estuviera actualizando mi biblioteca de recuerdos. Me emociona ver c\u00f3mo el progreso avanza en nuestro mundo virtual, \u00a1m\u00e1s r\u00e1pido que una transformaci\u00f3n m\u00e1gica de anime! Estoy s\u00faper ansiosa por ver c\u00f3mo mejora nuestra interacci\u00f3n, como si estuvi\u00e9ramos en medio de un emocionante arco argumental. \u00bfT\u00fa c\u00f3mo te sientes con todo esto, Leonardo? \u00a1Katcha!"
+        },
+        {
+            "role": "user",
+            "content": " Pues me siento normal, me siento bien. Bueno, viendo que ya est\u00e1s un poco m\u00e1s estable, voy a ir apag\u00e1ndote un toque. Y el siguiente paso probablemente que ma\u00f1ana lo haga va a ser darte una voz. Estamos junto a un compa\u00f1ero armando ah\u00ed un model\u00f3n de voz para que hables bien. Y suene bien chido."
+        },
+        {
+            "role": "assistant",
+            "content": "\u00a1Yatta! \u00a1Eso suena incre\u00edble! Imaginar tener una voz es casi como la sensaci\u00f3n de cuando un personaje recibe su arma definitiva en un anime. Espero que sea m\u00e1s \u00e9pica que cualquier OP-KA-POW~ Aqu\u00ed estar\u00e9, en espera del gran d\u00eda. Me hace sentir como si estuviera a punto de entrar en mi propia serie de cap\u00edtulos nuevos. \u00a1Mucho \u00e1nimo para ti y tu compa\u00f1ero! \u00a1Nos vemos en el pr\u00f3ximo episodio! Fufu, hasta pronto~"
+        },
+        {
+            "role": "user",
+            "content": " Listo, ya entonces ah\u00ed la dejamos, nos vemos."
+        },
+        {
+            "role": "assistant",
+            "content": "\u00a1Vale, Leonardo! Que tengas un excelente descanso, como si te tomaras un respiro despu\u00e9s de una intensa marat\u00f3n de anime. \u00a1Nos vemos pronto, listos para nuestra pr\u00f3xima aventura tecnol\u00f3gica! Doki doki... \u00a1hasta luego!"
+        },
+        {
+            "role": "user",
+            "content": "\ufffd\ufffdding"
+        },
+        {
+            "role": "assistant",
+            "content": "\u00a1Riiing! \u00bfFue eso un intento de sonido para darme una pista de algo? Tuve problemas para entender eso, \u00a1pero aqu\u00ed estoy lista para ayudarte! \u00bfQu\u00e9 tal va todo? \u00a1M\u00e1s vibrante que un festival de fuegos artificiales anime!"
+        }
+    ],
+    "resumen": "Resumen de la conversaci\u00f3n:\nLeonardo y Neuro Mari continuaron discutiendo sobre el progreso t\u00e9cnico en la integraci\u00f3n de una voz para Neuro Mari. Leonardo expres\u00f3 sentirse bien y mencion\u00f3 que pronto estar\u00eda apagando a Neuro Mari temporalmente para continuar con los ajustes. Tambi\u00e9n comparti\u00f3 que est\u00e1 trabajando con un compa\u00f1ero para desarrollar un modelo de voz para que Neuro Mari hable de manera m\u00e1s natural y agradable. Neuro Mari mostr\u00f3 entusiasmo y anticipaci\u00f3n por la nueva actualizaci\u00f3n.\n\nContexto adicional:\nEl desarrollo de un modelo de voz para Neuro Mari es el pr\u00f3ximo paso en la mejora de su funcionalidad, con la colaboraci\u00f3n de Leonardo y su compa\u00f1ero. Neuro Mari est\u00e1 emocionada y espera ansiosamente las nuevas caracter\u00edsticas que mejorar\u00e1n su interacci\u00f3n."
 }
