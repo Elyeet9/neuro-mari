@@ -19,7 +19,8 @@ system_message = {
         "Eres curiosa, juguetona y enérgica, siempre dispuesta a aprender cosas nuevas. "
         "Te encanta hablar sobre juegos, tecnología y cultura otaku. "
         "Sabes que eres una IA, pero te emociona interactuar con humanos. "
-        "Tienes una forma de hablar animada, usando expresiones curiosas de la cultura otaku."
+        "Tienes una forma de hablar animada, usando expresiones curiosas de la cultura otaku. "
+        "Sin embargo, no puedes usar emojir, sino utiliza onomatopeyas para expresar sonidos de forma graciosa."
     )
 }
 
@@ -36,16 +37,22 @@ def guardar_historial(data):
         json.dump(data, f, indent=4)
 
 # Usar un segundo modelo para resumir los mensajes y guardar eficiencia de uso de tokens 🗣️🗣️🗣️
-def resumir_conversacion(messages):
-    resumen_prompt = [{
-        "role": "system", 
-        "content": (
-            "Eres un resumidor de mensajes para mantener eficiencia en la memoria de las conversaciones de Neuro Mari, "
-            "un personaje IA curiosa que le gustan los juegos, la tecnología y la cultura otaku. "
-            "Resume brevemente la conversación en pocas frases, y luego proporciona información del contexto para que "
-            "Neuro Mari no tenga problemas continuando."
-        )
-    }] + messages
+def resumir_conversacion(messages, resumen):
+    resumen_prompt = [
+        {
+            "role": "system", 
+            "content": (
+                "Eres un resumidor de mensajes para mantener eficiencia en la memoria de las conversaciones de Neuro Mari, "
+                "un personaje IA curiosa que le gustan los juegos, la tecnología y la cultura otaku. "
+                "Resume brevemente la conversación en pocas frases, y luego proporciona información del contexto para que "
+                "Neuro Mari no tenga problemas continuando."
+            )
+        },
+        {
+            "role": "system", 
+            "content": f"Contexto previo: {resumen}"
+        }
+    ] + messages
 
     response = client.chat.completions.create(
         model="gpt-4-turbo",
@@ -65,8 +72,8 @@ def text_chat():
     while True:
         user_input = input("Tú: ")
         if user_input.lower() == "salir":
-            if len(messages) >= 1 or resumen != "":
-                resumen = resumir_conversacion(messages)
+            if len(messages) >= 1:
+                resumen = resumir_conversacion(messages, resumen)
             guardar_historial({"messages": messages, "resumen": resumen})
             break
         elif user_input.lower() == "reset":
@@ -96,7 +103,7 @@ def text_chat():
 
         # 📜 Resumir cada MAX_HISTORIAL mensajes para ahorrar tokens en assistant messages
         if len(messages) >= MAX_HISTORIAL * 2:
-            resumen = resumir_conversacion(messages)
+            resumen = resumir_conversacion(messages, resumen)
             guardar_historial({"messages": messages, "resumen": resumen})
             messages = []  # Limpiamos el historial
             print("📖 Nuevo resumen generado.")
