@@ -3,6 +3,9 @@ Este es un proyecto personal para crear una IA similar a Neuro-sama. Ahora mismo
 * Hablar con el usuario mediante entrada de texto.
 * Recordar una cantidad fija de mensajes, junto a un asistente que resume mensajes pasados para que Neuro Mari siempre tenga el contexto actual.
 
+## Text-to-Text
+This script allows you to speak with GPT as a character via text, and answers also via text.
+
 ## Próximamente
 * Speech to text para escuchar al usuario.
 * Text to speech para que Neuro Mari hable con el usuario.
