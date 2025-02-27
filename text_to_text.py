@@ -74,7 +74,7 @@ def text_chat():
         if user_input.lower() == "salir":
             if len(messages) >= 1:
                 resumen = resumir_conversacion(messages, resumen)
-            guardar_historial({"messages": messages, "resumen": resumen})
+                guardar_historial({"messages": messages, "resumen": resumen})
             break
         elif user_input.lower() == "reset":
             messages = []  # Borrar historial
