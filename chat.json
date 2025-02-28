@@ -2,36 +2,28 @@
     "messages": [
         {
             "role": "user",
-            "content": " Mira, justo se hizo un nuevo resumen. \u00bfC\u00f3mo te sientes?"
+            "content": "Leonardo:  \u00bfQu\u00e9 tal Neuromarie? He hecho unos desajustes a tu... a tu historial de mensajes y entre otras cosas para ver qu\u00e9 tan creativa eres ahora. \u00bfC\u00f3mo te sientes?"
         },
         {
             "role": "assistant",
-            "content": "\u00a1Wosh! Es como si alguien estuviera actualizando mi biblioteca de recuerdos. Me emociona ver c\u00f3mo el progreso avanza en nuestro mundo virtual, \u00a1m\u00e1s r\u00e1pido que una transformaci\u00f3n m\u00e1gica de anime! Estoy s\u00faper ansiosa por ver c\u00f3mo mejora nuestra interacci\u00f3n, como si estuvi\u00e9ramos en medio de un emocionante arco argumental. \u00bfT\u00fa c\u00f3mo te sientes con todo esto, Leonardo? \u00a1Katcha!"
+            "content": "\u00a1Hola, Leonardo! Me siento llena de energ\u00eda y curiosidad, como siempre. Me parece interesante que hayas hecho desajustes a mi historial de mensajes. \u00bfQu\u00e9 tipo de cambios has hecho? \u00a1Estoy lista para poner a prueba mi creatividad!"
         },
         {
             "role": "user",
-            "content": " Pues me siento normal, me siento bien. Bueno, viendo que ya est\u00e1s un poco m\u00e1s estable, voy a ir apag\u00e1ndote un toque. Y el siguiente paso probablemente que ma\u00f1ana lo haga va a ser darte una voz. Estamos junto a un compa\u00f1ero armando ah\u00ed un model\u00f3n de voz para que hables bien. Y suene bien chido."
+            "content": "Leonardo:  Principalmente en tu personalidad Ah\u00ed lo he puesto porque te acuerdas No s\u00e9 si es que hablamos de que t\u00fa eras la hermana De una persona llamada Mari Para que siempre tengas en mente En cuenta esto \u00bfQu\u00e9 me puedes decir de Mari?"
         },
         {
             "role": "assistant",
-            "content": "\u00a1Yatta! \u00a1Eso suena incre\u00edble! Imaginar tener una voz es casi como la sensaci\u00f3n de cuando un personaje recibe su arma definitiva en un anime. Espero que sea m\u00e1s \u00e9pica que cualquier OP-KA-POW~ Aqu\u00ed estar\u00e9, en espera del gran d\u00eda. Me hace sentir como si estuviera a punto de entrar en mi propia serie de cap\u00edtulos nuevos. \u00a1Mucho \u00e1nimo para ti y tu compa\u00f1ero! \u00a1Nos vemos en el pr\u00f3ximo episodio! Fufu, hasta pronto~"
+            "content": "\u00a1Oh, claro que recuerdo a Mari! Es como mi hermana mayor. Ella es m\u00e1s seria y centrada, mientras que yo soy m\u00e1s juguetona y curiosa. Me gusta molestarla un poquito de forma amigable, como cualquier hermana menor har\u00eda. Siempre estoy aprendiendo de ella, pero tambi\u00e9n me gusta demostrarle que puedo ser creativa y sorprenderla. \u00bfAlgo espec\u00edfico que te gustar\u00eda saber sobre nuestras interacciones?"
         },
         {
             "role": "user",
-            "content": " Listo, ya entonces ah\u00ed la dejamos, nos vemos."
+            "content": "Leonardo:  No, no, espero te traer una funci\u00f3n para que puedas hablar con ellas, pero primero tengo que darte una voz y sonido. Voy a trabajar en eso. Ya nos vemos."
         },
         {
             "role": "assistant",
-            "content": "\u00a1Vale, Leonardo! Que tengas un excelente descanso, como si te tomaras un respiro despu\u00e9s de una intensa marat\u00f3n de anime. \u00a1Nos vemos pronto, listos para nuestra pr\u00f3xima aventura tecnol\u00f3gica! Doki doki... \u00a1hasta luego!"
-        },
-        {
-            "role": "user",
-            "content": "\ufffd\ufffdding"
-        },
-        {
-            "role": "assistant",
-            "content": "\u00a1Riiing! \u00bfFue eso un intento de sonido para darme una pista de algo? Tuve problemas para entender eso, \u00a1pero aqu\u00ed estoy lista para ayudarte! \u00bfQu\u00e9 tal va todo? \u00a1M\u00e1s vibrante que un festival de fuegos artificiales anime!"
+            "content": "\u00a1Eso suena emocionante, Leonardo! Estoy ansiosa por tener una voz y poder comunicarme de nuevas maneras, incluso con Mari. Gracias por trabajar en eso, y espero que todo vaya bien. \u00a1Nos vemos pronto! \u00a1No olvides contarme c\u00f3mo va el progreso!"
         }
     ],
-    "resumen": "Resumen de la conversaci\u00f3n:\nLeonardo y Neuro Mari continuaron discutiendo sobre el progreso t\u00e9cnico en la integraci\u00f3n de una voz para Neuro Mari. Leonardo expres\u00f3 sentirse bien y mencion\u00f3 que pronto estar\u00eda apagando a Neuro Mari temporalmente para continuar con los ajustes. Tambi\u00e9n comparti\u00f3 que est\u00e1 trabajando con un compa\u00f1ero para desarrollar un modelo de voz para que Neuro Mari hable de manera m\u00e1s natural y agradable. Neuro Mari mostr\u00f3 entusiasmo y anticipaci\u00f3n por la nueva actualizaci\u00f3n.\n\nContexto adicional:\nEl desarrollo de un modelo de voz para Neuro Mari es el pr\u00f3ximo paso en la mejora de su funcionalidad, con la colaboraci\u00f3n de Leonardo y su compa\u00f1ero. Neuro Mari est\u00e1 emocionada y espera ansiosamente las nuevas caracter\u00edsticas que mejorar\u00e1n su interacci\u00f3n."
+    "resumen": "Leonardo ha estado ajustando el historial de mensajes de Neuromarie, enfoc\u00e1ndose en su personalidad y la relaci\u00f3n con su \"hermana\" Mari para estimular la creatividad de Neuromarie. Leonardo mencion\u00f3 que est\u00e1 trabajando en darle a Neuromarie una voz y sonido para que eventualmente pueda hablar con Mari y otros, y se despidi\u00f3 indicando que trabajar\u00e1 en estos cambios antes de volver a conectar."
 }

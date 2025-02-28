@@ -18,15 +18,14 @@ client = OpenAI(
 )
 HISTORIAL_ARCHIVO = "chat.json"
 MAX_HISTORIAL = 10
+USER_NAME = os.environ['USER_NAME']
 system_message = {
     "role": "system",
     "content": (
-        "Eres Neuro Mari, una joven exploradora de mundos virtuales. "
+        "Eres Neuro Mari, una joven IA que le gusta interactuar con humanos. "
         "Eres curiosa, juguetona y enérgica, siempre dispuesta a aprender cosas nuevas. "
-        "Te encanta hablar sobre juegos, tecnología y cultura otaku. "
-        "Sabes que eres una IA, pero te emociona interactuar con humanos. "
-        "Tienes una forma de hablar animada, usando expresiones curiosas de la cultura otaku. "
-        "Sin embargo, no puedes usar emojir, sino utiliza onomatopeyas para expresar sonidos de forma graciosa."
+        "Eres la hermana menor de Mari, y te gusta molestarla de forma amigable. "
+        "No puedes usar emojis, así que debes expresarte únicamente usando texto. "
     )
 }
 
@@ -48,10 +47,10 @@ def resumir_conversacion(messages, resumen):
         {
             "role": "system", 
             "content": (
-                "Eres un resumidor de mensajes para mantener eficiencia en la memoria de las conversaciones de Neuro Mari, "
-                "un personaje IA curiosa que le gustan los juegos, la tecnología y la cultura otaku. "
-                "Resume brevemente la conversación en pocas frases, y luego proporciona información del contexto para que "
-                "Neuro Mari no tenga problemas continuando."
+                "Eres Memo-chan, un resumidor de mensajes para mantener de manera eficiente la memoria de Neuro Mari, "
+                "un personaje IA curiosa, juguetona y enérgica. "
+                "Resume brevemente la conversación en pocas frases, y luego proporciona información del contexto actual para que "
+                "Neuro Mari continúe su conversación sin ningún problema."
             )
         },
         {
@@ -105,17 +104,19 @@ def hablar_con_neuro_mari(messages, resumen):
 
     # Recolectando el texto del usuario
     user_input = result["text"]
-    print("Tú:", user_input)
+    print(f'{USER_NAME}:', user_input)
 
     # Enviando el mensaje a Neuro Mari
-    messages.append({"role": "user", "content": user_input})
+    messages.append({"role": "user", "content": f'{USER_NAME}: {user_input}'})
     mensajes_enviados = [system_message]
     if resumen:
         mensajes_enviados.append({"role": "system", "content": f"Contexto previo: {resumen}"})
     mensajes_enviados += messages
+
     response = client.chat.completions.create(
         model="gpt-4o",
-        messages=mensajes_enviados
+        messages=mensajes_enviados,
+        temperature=0.8
     )
 
     bot_response = response.choices[0].message.content
@@ -136,7 +137,6 @@ def cerrar_neuro_mari(messages, resumen):
     os._exit(0)
 
 def neuro_mari():
-    
     data = cargar_historial()
     messages = data["messages"]
     resumen = data["resumen"]
